@@ -1,0 +1,142 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/* === General Style === */
+body {
+  background: url(https://i.pinimg.com/originals/77/25/7b/77257b48028fcfa61a3f4ef83f89eb85.jpg) repeat center;
+  background-size: cover;
+  word-wrap: break-word;
+  
+}
+
+header { 
+  text-align: center;
+  width: 90%;
+  height: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 9rem;
+  padding: 2rem;
+  font-family: 'Birthstone', cursive;
+}
+
+/* Main Style */
+
+img {
+  height: 9rem;
+  width: 9rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  text-align: center;
+  background-color: rgba(110, 242, 194, 0.2);
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.product>h1 {
+  font-size: 1.6rem;
+  padding: 0.8rem;
+}
+
+.product {
+ padding: 1.5rem;
+}
+
+.product>p {
+  font-size: 1.1rem;
+}
+
+footer {
+  height: 15vh;
+  width: 80vw;
+  background-color: rgba(110, 242, 194, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (min-width: 600px) {
+  
+  
+  .header {
+    font-size: 11rem;
+  }
+  
+  img {
+    width: 14rem;
+    height: 13rem;
+  }
+  
+  .product>h1 {
+  font-size: 2.5rem;
+}
+  
+  .product>p {
+  font-size: 1.6rem;
+}
+  
+}
+
+@media (max-width: 600px) {
+  
+  .main {
+    width: 80vw;
+  }
+  
+}
+
+
